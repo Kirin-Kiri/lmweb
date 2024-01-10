@@ -1,0 +1,204 @@
+/* General */
+
+body {
+    font-family: Arial, sans-serif;
+    margin-top: 2%;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    position: relative;
+    background: url('img/header.jpg') center/cover no-repeat;
+    text-align: center;
+    padding: 5em 0;
+    width: 100%;
+}
+
+main {
+    max-width: 800px;
+    margin-top: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+h1 {
+    color: #fff;
+}
+
+p {
+    line-height: 1.6;
+    color: #fff;
+}
+
+/* Video */
+
+#Video {
+    position: fixed;
+    top: 0;
+    min-width: 100%;
+    min-height: 70%;
+    z-index: -1; 
+}
+
+/* Posicion maps */
+
+.maps {
+    padding: 2% 1%;
+}
+
+/* Formulario */
+
+label, input, textarea {
+    display: block;
+    margin-bottom: 15px;
+    width: 98%;
+    margin-left: 0.3%;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #555; 
+    border-radius: 5px;
+    background-color: #1a1a1a; 
+    color: #fff;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Botones */
+
+button:hover, .button:hover {
+    background-color: #e64d00;
+}
+
+.buttons {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    z-index: 2;
+}
+button, .button {
+    background-color: #555; 
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Boton header*/
+
+.button-header {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: none;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.button-header:hover {
+    text-decoration: underline;
+}
+
+/* Navegacion */
+
+.bmws{
+    margin-top: 1%;
+    text-align: center;
+}
+
+.bmwscat{
+    margin-top: 1%;
+    margin-left: 1.5%;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bmwsimage {
+    width: 70%;
+    height: auto; 
+}
+
+.image-container {
+    position: relative;
+}
+
+.overlay-text {
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.image-container:hover .overlay-text {
+    opacity: 1; 
+}
+
+.bmwscatimg {
+    transition: transform 0.7s ease-in-out; 
+    width: 100%;
+    height: 270px; 
+    margin: 0,6%;
+}
+
+.image-container:hover .bmwscatimg {
+    transform: scale(1.2);
+}
+
+/* Tabla */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #fff;
+    padding: 10px;
+    text-align: left;
+    color: #fff;
+}
+
+th {
+    background-color: #333;
+}
+
+/* Links */
+
+a:link  {
+    color: #fff;
+}
+
+a:visited  {
+    color: #fff;
+}
